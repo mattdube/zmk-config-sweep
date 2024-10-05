@@ -25,27 +25,22 @@
 
         caps_word {
             bindings = <&caps_word>;
-            key-positions = <14 15>;
+            key-positions = <20 29>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
+        combo_semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <22 27>;
         };
 
-        combo_shift {
-            bindings = <&sk LSHIFT>;
-            key-positions = <1 2>;
+        combo_colon {
+            bindings = <&kp COLON>;
+            key-positions = <24 25>;
         };
 
-        compo_alt {
-            bindings = <&sk LEFT_ALT>;
-            key-positions = <21 22>;
-        };
-
-        combo_cmd {
-            bindings = <&sk RCMD>;
-            key-positions = <27 28>;
+        combo_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <23 26>;
         };
     };
 
@@ -54,10 +49,10 @@
 
         default {
             bindings = <
-&kp Q           &kp W           &kp F        &kp P             &kp B            &kp J      &kp L              &kp U        &kp Y            &kp SEMI
-&mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G            &kp M      &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RGUI O
-&kp Z           &kp X           &kp C        &kp D             &kp V            &kp K      &kp H              &kp COMMA    &kp DOT          &kp LS(SLASH)
-                                             &mo 1             &lt 1 BACKSPACE  &kp SPACE  &lt 2 RETURN
+&kp Q           &kp W           &kp F        &kp P             &kp B            &kp J        &kp L              &kp U        &kp Y            &kp SEMI
+&mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G            &kp M        &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RGUI O
+&kp Z           &kp X           &kp C        &kp D             &kp V            &kp K        &kp H              &kp COMMA    &kp DOT          &kp LS(SLASH)
+                                             &lt 3 TAB         &lt 1 BACKSPACE  &lt 2 SPACE  &lt 3 RETURN
             >;
         };
 
