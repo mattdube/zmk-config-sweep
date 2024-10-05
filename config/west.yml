@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: mouse
+      url-base: https://github.com/zmkfirmware/zmk/pull/778
   projects:
     - name: zmk
       remote: zmkfirmware
