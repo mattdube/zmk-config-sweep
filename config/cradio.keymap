@@ -88,16 +88,7 @@
 &sys_reset   &bt BT_NXT  &bt BT_PRV  &trans          &bt BT_SEL 0  &bt BT_CLR  &trans  &trans  &trans  &sys_reset
 &bootloader  &trans      &trans      &trans          &bt BT_SEL 1  &trans      &trans  &trans  &trans  &bootloader
 &trans       &trans      &trans      &bt BT_CLR_ALL  &bt BT_SEL 2  &trans      &trans  &trans  &trans  &trans
-                                     &to 0           &to 5         &trans      &trans
-            >;
-        };
-
-        left_hand {
-            bindings = <
-&kp ESC        &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &kp TAB                 &trans  &trans  &trans  &trans  &trans
-&kp BACKSPACE  &kp LEFT     &kp DOWN  &kp RIGHT      &kp DEL                 &trans  &trans  &trans  &trans  &trans
-&trans         &trans       &trans    &trans         &trans                  &trans  &trans  &trans  &trans  &trans
-                                      &to 0          &mt LEFT_COMMAND SPACE  &trans  &trans
+                                     &to 0           &to 0         &trans      &trans
             >;
         };
     };
