@@ -51,7 +51,7 @@
             bindings = <
 &kp Q           &kp W           &kp F        &kp P             &kp B            &kp J        &kp L              &kp U        &kp Y            &kp SINGLE_QUOTE
 &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &lt 3 G          &kp M        &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RGUI O
-&kp Z           &kp X           &kp C        &kp D             &kp V            &kp K        &kp H              &kp COMMA    &kp DOT          &kp LS(SLASH)
+&kp Z           &kp X           &kp C        &kp D             &kp V            &kp K        &kp H              &kp COMMA    &kp DOT          &kp SLASH
                                              &lt 3 TAB         &lt 1 BACKSPACE  &lt 2 SPACE  &lt 3 RETURN
             >;
         };
@@ -76,10 +76,10 @@
 
         NAV {
             bindings = <
-&kp ESC  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans         &trans          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp PG_UP      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp DELETE
-&trans   &trans          &trans          &trans           &kp PAGE_DOWN  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans
-                                         &to 0            &trans         &trans          &trans
+&kp ESC  &mkp LCLK  &trans  &mkp RCLK  &trans         &trans          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans   &trans     &trans  &trans     &kp PG_UP      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp DELETE
+&trans   &trans     &trans  &trans     &kp PAGE_DOWN  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans
+                            &to 0      &trans         &trans          &trans
             >;
         };
 
