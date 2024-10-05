@@ -49,7 +49,7 @@
 
         default {
             bindings = <
-&kp Q           &kp W           &kp F        &kp P             &kp B            &kp J        &kp L              &kp U        &kp Y            &kp SEMI
+&kp Q           &kp W           &kp F        &kp P             &kp B            &kp J        &kp L              &kp U        &kp Y            &kp SINGLE_QUOTE
 &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G            &kp M        &mt RIGHT_SHIFT N  &mt RCTRL E  &mt RIGHT_ALT I  &mt RGUI O
 &kp Z           &kp X           &kp C        &kp D             &kp V            &kp K        &kp H              &kp COMMA    &kp DOT          &kp LS(SLASH)
                                              &lt 3 TAB         &lt 1 BACKSPACE  &lt 2 SPACE  &lt 3 RETURN
