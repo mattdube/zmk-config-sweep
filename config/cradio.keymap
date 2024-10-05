@@ -69,17 +69,17 @@
             bindings = <
 &kp EXCL    &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT        &kp CARET         &kp AMPS              &kp ASTRK              &kp BACKSLASH     &kp PIPE
 &kp MINUS   &kp EQUAL    &kp PLUS  &kp UNDER   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&caps_word  &trans       &trans    &trans      &kp QUESTION       &kp SLASH         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCL          &trans
-                                   &kp TAB     &kp ESCAPE         &trans            &trans
+&caps_word  &trans       &trans    &trans      &kp GRAVE          &kp TILDE         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCL          &trans
+                                   &trans      &kp DELETE         &trans            &trans
             >;
         };
 
         NAV {
             bindings = <
-&kp ESC           &kp F1        &kp F2            &kp F3          &kp F4         &kp PAGE_UP     &mkp MB1        &mkp MB2      &kp END       &kp F1
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp PG_UP      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &kp DELETE
-&kp LG(Z)         &kp LG(X)     &kp LG(C)         &kp LG(V)       &kp PAGE_DOWN  &kp PAGE_DOWN   &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &to 4
-                                                  &to 0           &trans         &trans          &trans
+&kp ESC  &mkp LCLK  &trans  &mkp RCLK  &trans         &trans          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans   &trans     &trans  &trans     &kp PG_UP      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp DELETE
+&trans   &trans     &trans  &trans     &kp PAGE_DOWN  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans
+                            &to 0      &trans         &trans          &trans
             >;
         };
 
