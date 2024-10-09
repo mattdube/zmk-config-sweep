@@ -19,6 +19,11 @@
 
 &sk { quick-release; };
 
+&lt {
+    tapping-term-ms = <225>;
+    flavor = "balanced";
+};
+
 / {
     combos {
         compatible = "zmk,combos";
