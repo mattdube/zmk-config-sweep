@@ -81,15 +81,6 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33 30 31 21 22 24>;
         };
-
-        mouse_move: mouse_move {
-            compatible = "zmk,behavior-mouse-move";
-            label = "MOUSE_MOVE";
-            #binding-cells = <1>;
-            delay-ms = <0>;
-            time-to-max-speed-ms = <40>;
-            acceleration-exponent = <1>;
-        };
     };
 
     macros {
@@ -133,10 +124,10 @@
 
         NAV {
             bindings = <
-&kp ESC  &mkp LCLK              &mouse_move MOVE_UP    &mkp RCLK               &trans         &trans          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans   &mouse_move MOVE_LEFT  &mouse_move MOVE_DOWN  &mouse_move MOVE_RIGHT  &kp PG_UP      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp DELETE
-&trans   &trans                 &trans                 &trans                  &kp PAGE_DOWN  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans
-                                                       &to 0                   &trans         &trans          &trans
+&kp ESC  &mkp LCLK  &none   &mkp RCLK  &trans         &trans          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans   &none      &none   &none      &kp PG_UP      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp DELETE
+&trans   &trans     &trans  &trans     &kp PAGE_DOWN  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans
+                            &to 0      &trans         &trans          &trans
             >;
         };
 
