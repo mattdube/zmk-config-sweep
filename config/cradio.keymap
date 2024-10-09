@@ -48,11 +48,6 @@
             key-positions = <23 26>;
         };
 
-        count {
-            bindings = <&format_count>;
-            key-positions = <2 7>;
-        };
-
         base_death {
             bindings = <&base_death>;
             key-positions = <3 6>;
