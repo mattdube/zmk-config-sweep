@@ -94,13 +94,6 @@
             bindings = <&none &kp R &kp E &kp P &kp O &kp R &kp T &kp DOT &kp D &kp E &kp A &kp T &kp H &kp UNDER &kp T &kp O &kp O &kp L &kp UNDER &kp B &kp A &kp S &kp E &kp UNDER &kp D &kp E &kp A &kp T &kp H>;
             label = "BASE_DEATH";
         };
-
-        format_count: format_count {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp T &kp O &kp UNDER &kp C &kp H &kp A &kp R &kp LPAR &kp C &kp O &kp U &kp N &kp T &kp LPAR &kp STAR &kp RPAR &kp COMMA &kp SPACE &kp SQT &kp N9 &kp N9 &kp N9 &kp COMMA &kp N9 &kp N9 &kp N9 &kp COMMA &kp N9 &kp N9 &kp N9 &kp COMMA &kp N9 &kp N9 &kp N9 &kp SQT &kp RPAR &kp SPACE &kp A &kp S &kp SPACE &kp T &kp O &kp T &kp A &kp L &kp SPACE>;
-            label = "FORMAT_COUNT";
-        };
     };
 
     keymap {
